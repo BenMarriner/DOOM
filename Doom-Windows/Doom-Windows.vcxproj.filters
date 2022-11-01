@@ -201,36 +201,6 @@
     <ClCompile Include="..\linuxdoom-1.10\z_zone.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\sersrc\DOOMNET.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\sersrc\PORT.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\sersrc\SERSETUP.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\sndserv\linux.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\sndserv\sounds.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\sndserv\soundsrv.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\sndserv\wadread.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ipx\DOOMNET.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ipx\IPXNET.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ipx\IPXSETUP.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\linuxdoom-1.10\am_map.h">
@@ -417,42 +387,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\linuxdoom-1.10\z_zone.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sersrc\DOOMNET.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sersrc\SERSETUP.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sersrc\SERSTR.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sersrc\SER_FRCH.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sndserv\sounds.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sndserv\soundsrv.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sndserv\soundst.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sndserv\wadread.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ipx\DOOMNET.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ipx\IPXNET.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ipx\IPXSTR.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ipx\IPX_FRCH.H">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

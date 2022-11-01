@@ -27,13 +27,20 @@ rcsid[] = "$Id: m_bbox.c,v 1.1 1997/02/03 22:45:10 b1 Exp $";
 #include <string.h>
 #include <stdio.h>
 
+#include <errno.h>
+
+#ifdef LINUX
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-#include <errno.h>
 #include <unistd.h>
 #include <netdb.h>
 #include <sys/ioctl.h>
+#endif
+
+#ifdef WIN32
+#include <winsock.h>
+#endif
 
 #include "i_system.h"
 #include "d_event.h"
@@ -73,7 +80,10 @@ boolean NetListen (void);
 // NETWORKING
 //
 
-int	DOOMPORT =	(IPPORT_USERRESERVED +0x1d );
+//int	DOOMPORT = IPPORT_USERRESERVED + 0x1d;
+int DOOMPORT = 0x29a;
+
+
 
 int			sendsocket;
 int			insocket;

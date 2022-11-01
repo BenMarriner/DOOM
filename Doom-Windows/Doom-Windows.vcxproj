@@ -102,8 +102,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -116,8 +117,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,9 +129,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\ipx\DOOMNET.C" />
-    <ClCompile Include="..\ipx\IPXNET.C" />
-    <ClCompile Include="..\ipx\IPXSETUP.C" />
     <ClCompile Include="..\linuxdoom-1.10\am_map.c" />
     <ClCompile Include="..\linuxdoom-1.10\doomdef.c" />
     <ClCompile Include="..\linuxdoom-1.10\doomstat.c" />
@@ -192,19 +191,8 @@
     <ClCompile Include="..\linuxdoom-1.10\wi_stuff.c" />
     <ClCompile Include="..\linuxdoom-1.10\w_wad.c" />
     <ClCompile Include="..\linuxdoom-1.10\z_zone.c" />
-    <ClCompile Include="..\sersrc\DOOMNET.C" />
-    <ClCompile Include="..\sersrc\PORT.C" />
-    <ClCompile Include="..\sersrc\SERSETUP.C" />
-    <ClCompile Include="..\sndserv\linux.c" />
-    <ClCompile Include="..\sndserv\sounds.c" />
-    <ClCompile Include="..\sndserv\soundsrv.c" />
-    <ClCompile Include="..\sndserv\wadread.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ipx\DOOMNET.H" />
-    <ClInclude Include="..\ipx\IPXNET.H" />
-    <ClInclude Include="..\ipx\IPXSTR.H" />
-    <ClInclude Include="..\ipx\IPX_FRCH.H" />
     <ClInclude Include="..\linuxdoom-1.10\am_map.h" />
     <ClInclude Include="..\linuxdoom-1.10\doomdata.h" />
     <ClInclude Include="..\linuxdoom-1.10\doomdef.h" />
@@ -267,14 +255,6 @@
     <ClInclude Include="..\linuxdoom-1.10\wi_stuff.h" />
     <ClInclude Include="..\linuxdoom-1.10\w_wad.h" />
     <ClInclude Include="..\linuxdoom-1.10\z_zone.h" />
-    <ClInclude Include="..\sersrc\DOOMNET.H" />
-    <ClInclude Include="..\sersrc\SERSETUP.H" />
-    <ClInclude Include="..\sersrc\SERSTR.H" />
-    <ClInclude Include="..\sersrc\SER_FRCH.H" />
-    <ClInclude Include="..\sndserv\sounds.h" />
-    <ClInclude Include="..\sndserv\soundsrv.h" />
-    <ClInclude Include="..\sndserv\soundst.h" />
-    <ClInclude Include="..\sndserv\wadread.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\linuxdoom-1.10\README.asm" />

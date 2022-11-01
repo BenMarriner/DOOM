@@ -789,7 +789,7 @@ void R_SortVisSprites (void)
     int			i;
     int			count;
     vissprite_t*	ds;
-    vissprite_t*	best;
+    vissprite_t*	best = NULL;
     vissprite_t		unsorted;
     fixed_t		bestscale;
 
@@ -814,23 +814,27 @@ void R_SortVisSprites (void)
     // pull the vissprites out by scale
     //best = 0;		// shut up the compiler warning
     vsprsortedhead.next = vsprsortedhead.prev = &vsprsortedhead;
-    for (i=0 ; i<count ; i++)
+    for (i = 0; i < count; i++)
     {
-	bestscale = MAXINT;
-	for (ds=unsorted.next ; ds!= &unsorted ; ds=ds->next)
-	{
-	    if (ds->scale < bestscale)
-	    {
-		bestscale = ds->scale;
-		best = ds;
-	    }
-	}
-	best->next->prev = best->prev;
-	best->prev->next = best->next;
-	best->next = &vsprsortedhead;
-	best->prev = vsprsortedhead.prev;
-	vsprsortedhead.prev->next = best;
-	vsprsortedhead.prev = best;
+        bestscale = MAXINT;
+        for (ds = unsorted.next; ds != &unsorted; ds = ds->next)
+        {
+            if (ds->scale < bestscale)
+            {
+                bestscale = ds->scale;
+                best = ds;
+            }
+        }
+
+        if (best != NULL)
+        {
+            best->next->prev = best->prev;
+            best->prev->next = best->next;
+            best->next = &vsprsortedhead;
+            best->prev = vsprsortedhead.prev;
+            vsprsortedhead.prev->next = best;
+            vsprsortedhead.prev = best;
+        }
     }
 }
 

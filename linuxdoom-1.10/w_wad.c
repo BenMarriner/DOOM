@@ -25,17 +25,23 @@
 static const char
 rcsid[] = "$Id: w_wad.c,v 1.5 1997/02/03 16:47:57 b1 Exp $";
 
+#ifdef WIN32
+#include <Windows.h>
+#endif
 
-#ifdef NORMALUNIX
+#if defined(NORMALUNIX) || defined(WIN32)
 #include <ctype.h>
 #include <sys/types.h>
 #include <string.h>
-#include <unistd.h>
 #include <malloc.h>
 #include <fcntl.h>
 #include <sys/stat.h>
-#include <alloca.h>
 #define O_BINARY		0
+#endif
+
+#ifdef NORMALUNIX
+#include <unistd.h>
+#include <alloca.h>
 #endif
 
 #include "doomtype.h"
@@ -66,7 +72,7 @@ void**			lumpcache;
 
 #define strcmpi	strcasecmp
 
-void strupr (char* s)
+void strupper (char* s)
 {
     while (*s) { *s = toupper(*s); s++; }
 }
@@ -367,7 +373,7 @@ int W_CheckNumForName (char* name)
     name8.s[8] = 0;
 
     // case insensitive
-    strupr (name8.s);		
+    strupper (name8.s);		
 
     v1 = name8.x[0];
     v2 = name8.x[1];

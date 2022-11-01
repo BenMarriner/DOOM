@@ -24,22 +24,45 @@
 static const char
 rcsid[] = "$Id: i_main.c,v 1.4 1997/02/03 22:45:10 b1 Exp $";
 
-
+#ifdef WIN32
+#include <Windows.h>
+#endif
 
 #include "doomdef.h"
 
 #include "m_argv.h"
 #include "d_main.h"
 
-int
-main
-( int		argc,
-  char**	argv ) 
+#ifdef WIN32
+int WinMain
+(
+    int         argc, 
+    char**      argv,
+    HINSTANCE   hInst,
+    HINSTANCE   hInstPrev,
+    PSTR        cmdline, 
+    int         cmdshow
+)
+{
+    myargc = argc;
+    myargv = argv;
+
+    D_DoomMain();
+
+    return 0;
+}
+#else
+int main 
+(
+    int     argc, 
+    char**  argv
+)
 { 
-    myargc = argc; 
+    myargc = argc;
     myargv = argv; 
  
     D_DoomMain (); 
 
     return 0;
 } 
+#endif

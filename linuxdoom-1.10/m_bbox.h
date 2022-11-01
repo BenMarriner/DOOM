@@ -23,7 +23,13 @@
 #ifndef __M_BBOX__
 #define __M_BBOX__
 
+#ifdef NORMALUNIX
 #include <values.h>
+#endif
+
+#ifdef WIN32
+#include <Windows.h>
+#endif
 
 #include "m_fixed.h"
 

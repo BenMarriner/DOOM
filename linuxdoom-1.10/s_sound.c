@@ -651,7 +651,7 @@ S_ChangeMusic
 ( int			musicnum,
   int			looping )
 {
-    musicinfo_t*	music;
+    musicinfo_t*	music = NULL;
     char		namebuf[9];
 
     if ( (musicnum <= mus_None)
@@ -662,27 +662,36 @@ S_ChangeMusic
     else
 	music = &S_music[musicnum];
 
-    if (mus_playing == music)
-	return;
-
-    // shutdown old music
-    S_StopMusic();
-
-    // get lumpnum if neccessary
-    if (!music->lumpnum)
+    if (!music == NULL)
     {
-	sprintf(namebuf, "d_%s", music->name);
-	music->lumpnum = W_GetNumForName(namebuf);
+        I_Error("Failed to play music with number %d", musicnum);
+        return;
     }
 
-    // load & register it
-    music->data = (void *) W_CacheLumpNum(music->lumpnum, PU_MUSIC);
-    music->handle = I_RegisterSong(music->data);
+    if (mus_playing == music)
+	return;
+    
+    // get lumpnum if neccessary
+    if (music != NULL)
+    {
+        // shutdown old music
+        S_StopMusic();
 
-    // play it
-    I_PlaySong(music->handle, looping);
+        if (!music->lumpnum)
+        {
+            sprintf(namebuf, "d_%s", music->name);
+            music->lumpnum = W_GetNumForName(namebuf);
+        }
 
-    mus_playing = music;
+        // load & register it
+        music->data = (void*)W_CacheLumpNum(music->lumpnum, PU_MUSIC);
+        music->handle = I_RegisterSong(music->data);
+
+        // play it
+        I_PlaySong(music->handle, looping);
+
+        mus_playing = music;
+    }
 }
 
 

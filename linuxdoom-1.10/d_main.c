@@ -572,7 +572,9 @@ void IdentifyVersion (void)
     char*	plutoniawad;
     char*	tntwad;
 
-#ifdef NORMALUNIX
+	int R_OK = 0;
+
+#if defined(NORMALUNIX) || defined(WIN32)
     char *home;
     char *doomwaddir;
     doomwaddir = getenv("DOOMWADDIR");
