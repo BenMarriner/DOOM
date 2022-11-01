@@ -1,0 +1,804 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1118,5): warning MSB8027: Two or more files with the name of DOOMNET.C will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\ipx\DOOMNET.C, ..\sersrc\DOOMNET.C.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1118,5): warning MSB8027: Two or more files with the name of sounds.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\linuxdoom-1.10\sounds.c, ..\sndserv\sounds.c.
+  DOOMNET.C
+D:\Game Engines\Doom Content\DOOM-repo\ipx\doomnet.h(52,27): error C2143: syntax error: missing ')' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\doomnet.h(52,27): error C2143: syntax error: missing '{' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\doomnet.h(52,39): error C2059: syntax error: ')'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\doomnet.h(57,16): error C2061: syntax error: identifier 'NetISR'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\doomnet.h(57,16): error C2059: syntax error: ';'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\doomnet.h(57,28): error C2059: syntax error: '<parameter-list>'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(16,17): error C2143: syntax error: missing ')' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(16,17): error C2143: syntax error: missing '{' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(16,29): error C2059: syntax error: ')'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(50,17): warning C4013: 'getvect' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(50,41): warning C4047: '=': 'int *(__cdecl *)(void)' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(50,3): error C2106: '=': left operand must be l-value
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(51,6): warning C4013: 'setvect' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(51,36): error C2146: syntax error: missing ')' before identifier 'interrupt'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(51,36): warning C4013: 'interrupt' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(51,48): error C2059: syntax error: ')'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(56,28): error C2065: '_argv': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(56,23): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(56,36): error C2065: '_argc': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(57,16): error C2065: '_argc': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(58,22): error C2065: '_DS': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(58,46): warning C4311: 'type cast': pointer truncation from 'doomcom_t *' to 'unsigned int'
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(60,16): error C2065: '_argc': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(61,16): error C2065: '_argc': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(63,8): warning C4013: 'access' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(59,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(64,3): error C4996: 'spawnv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _spawnv. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\ipx\DOOMNET.C(66,3): error C4996: 'spawnv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _spawnv. See online help for details.
+  IPXNET.C
+D:\Game Engines\Doom Content\DOOM-repo\ipx\IPXNET.C(8,10): fatal  error C1083: Cannot open include file: 'values.h': No such file or directory
+  IPXSETUP.C
+D:\Game Engines\Doom Content\DOOM-repo\ipx\IPXSETUP.C(12,10): fatal  error C1083: Cannot open include file: 'bios.h': No such file or directory
+  am_map.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(197,14): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(197,21): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(197,33): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(197,40): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(198,13): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(198,20): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(199,24): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(199,31): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(206,12): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(206,19): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(207,22): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(207,28): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(208,12): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(208,18): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(208,29): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(208,36): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(275,29): warning C4244: 'initializing': conversion from 'double' to 'fixed_t', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(509,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\am_map.c(689,6): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  doomdef.c
+  doomstat.c
+  dstrings.c
+  d_items.c
+  d_main.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(362,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(364,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(551,15): warning C4013: 'malloc' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(551,38): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(552,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(658,11): warning C4013: 'access' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(658,33): error C2065: 'R_OK': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(669,32): error C2065: 'R_OK': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(676,37): error C2065: 'R_OK': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(683,33): error C2065: 'R_OK': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(690,32): error C2065: 'R_OK': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(697,31): error C2065: 'R_OK': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(704,32): error C2065: 'R_OK': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(624,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(636,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(654,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(745,3): warning C4013: 'exit' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(751,26): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(760,46): warning C4047: '=': 'char **' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(741,15): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(880,2): warning C4013: 'mkdir' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(892,14): warning C4013: 'atoi' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(1122,37): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(805,5): error C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(820,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(827,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(834,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(841,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(864,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(881,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(920,6): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(930,8): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(932,8): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(955,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(1154,6): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_main.c(1156,6): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d_net.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_net.c(92,63): warning C4311: 'type cast': pointer truncation from 'ticcmd_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_net.c(110,70): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\d_net.c(289,6): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  f_finale.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\f_finale.c(692,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  f_wipe.c
+  g_game.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(677,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(716,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(902,31): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1194,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1215,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1266,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1309,21): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1279,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1281,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1289,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1536,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1537,5): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\g_game.c(1680,44): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  hu_lib.c
+  hu_stuff.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\hu_stuff.c(408,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\hu_stuff.c(724,6): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\hu_stuff.c(748,7): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  info.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(137,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(138,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(139,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(140,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(142,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(145,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(146,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(147,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(148,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(150,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(152,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(153,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(154,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(155,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(156,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(158,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(165,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(166,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(167,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(168,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(169,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(170,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(172,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(174,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(175,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(177,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(179,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(180,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(183,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(184,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(185,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(186,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(187,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(188,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(189,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(190,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(191,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(192,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(193,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(194,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(195,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(196,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(197,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(198,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(199,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(201,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(202,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(203,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(204,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(205,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(206,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(207,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(208,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(209,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(210,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(211,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(212,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(213,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(214,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(215,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(216,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(217,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(218,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(219,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(220,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(221,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(222,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(223,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(224,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(225,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(255,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(263,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(293,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(295,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(296,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(302,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(303,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(310,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(311,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(312,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(313,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(314,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(315,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(316,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(317,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(318,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(319,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(320,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(321,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(324,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(326,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(327,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(331,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(332,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(343,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(344,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(345,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(346,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(347,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(348,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(349,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(350,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(351,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(352,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(353,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(354,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(357,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(359,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(360,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(364,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(365,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(377,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(378,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(379,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(380,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(381,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(382,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(383,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(384,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(385,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(386,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(387,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(388,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(389,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(390,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(391,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(392,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(393,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(394,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(395,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(396,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(397,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(398,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(399,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(400,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(406,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(408,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(409,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(417,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(418,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(419,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(420,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(421,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(422,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(423,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(424,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(425,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(426,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(427,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(428,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(429,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(430,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(431,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(432,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(433,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(434,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(435,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(436,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(437,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(438,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(439,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(440,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(441,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(442,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(443,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(444,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(445,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(446,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(452,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(453,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(457,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(458,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(459,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(460,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(461,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(462,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(463,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(464,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(465,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(466,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(467,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(468,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(469,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(470,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(471,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(472,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(473,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(474,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(475,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(476,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(477,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(478,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(480,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(483,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(484,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(498,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(499,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(500,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(501,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(502,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(503,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(504,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(505,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(506,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(507,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(508,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(509,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(510,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(511,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(512,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(513,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(514,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(515,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(516,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(517,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(518,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(519,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(520,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(521,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(523,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(525,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(526,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(533,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(542,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(543,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(544,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(545,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(546,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(547,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(548,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(549,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(550,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(551,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(552,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(553,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(554,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(555,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(557,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(559,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(560,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(566,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(567,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(578,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(579,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(580,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(581,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(582,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(583,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(584,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(585,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(586,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(587,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(588,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(589,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(590,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(592,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(594,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(596,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(599,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(601,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(611,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(612,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(613,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(614,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(615,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(616,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(617,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(618,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(619,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(620,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(621,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(622,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(623,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(625,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(627,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(629,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(638,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(639,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(640,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(641,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(642,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(644,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(647,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(650,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(663,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(664,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(665,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(666,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(667,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(668,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(669,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(670,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(671,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(672,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(673,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(674,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(675,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(677,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(679,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(681,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(684,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(692,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(693,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(694,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(695,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(696,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(697,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(698,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(699,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(700,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(701,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(702,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(703,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(704,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(706,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(708,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(710,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(721,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(722,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(723,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(724,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(725,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(726,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(730,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(732,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(734,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(737,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(738,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(739,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(740,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(741,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(742,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(743,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(744,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(745,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(746,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(747,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(748,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(749,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(750,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(751,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(752,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(753,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(754,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(756,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(757,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(758,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(767,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(768,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(769,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(771,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(772,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(773,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(774,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(775,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(776,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(777,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(778,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(779,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(780,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(781,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(782,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(783,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(784,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(786,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(788,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(789,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(790,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(795,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(810,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(811,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(812,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(813,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(814,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(815,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(816,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(817,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(818,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(819,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(820,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(821,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(822,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(823,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(824,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(825,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(826,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(828,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(832,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(836,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(837,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(838,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(839,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(840,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(841,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(842,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(843,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(844,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(845,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(846,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(847,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(849,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(851,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(854,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(862,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(863,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(864,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(865,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(866,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(867,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(868,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(869,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(870,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(871,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(872,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(873,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(874,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(875,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(876,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(877,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(879,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(881,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(882,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(886,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(887,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(902,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(910,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(913,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(915,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(916,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(919,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(920,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(921,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(922,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(923,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(924,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(925,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(926,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(927,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(928,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(929,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(930,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(931,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(932,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(933,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(934,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(937,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(945,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\info.c(947,1): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'actionf_p1'
+  i_main.c
+  i_net.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\i_net.c(30,10): fatal  error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+  i_sound.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\i_sound.c(33,10): fatal  error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+  i_system.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\i_system.c(32,10): fatal  error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+  Generating Code...
+  Compiling...
+  i_video.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\i_video.c(28,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  m_argv.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_argv.c(47,8): warning C4013: 'strcasecmp' undefined; assuming extern returning int
+  m_bbox.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_bbox.h(26,10): fatal  error C1083: Cannot open include file: 'values.h': No such file or directory
+  m_cheat.c
+  m_fixed.c
+  m_menu.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_menu.c(28,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  m_misc.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_misc.c(34,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  m_random.c
+  m_swap.c
+  p_ceilng.c
+  p_doors.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_doors.c(414,17): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  p_enemy.c
+  p_floor.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_floor.c(520,19): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_floor.c(526,20): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  p_inter.c
+  p_lights.c
+  p_map.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_bbox.h(26,10): fatal  error C1083: Cannot open include file: 'values.h': No such file or directory
+  p_maputl.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_bbox.h(26,10): fatal  error C1083: Cannot open include file: 'values.h': No such file or directory
+  p_mobj.c
+  p_plats.c
+  p_pspr.c
+  Generating Code...
+  Compiling...
+  p_saveg.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(58,2): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(89,2): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(104,52): warning C4311: 'type cast': pointer truncation from 'state_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(243,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(298,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(302,44): warning C4311: 'type cast': pointer truncation from 'state_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(306,44): warning C4311: 'type cast': pointer truncation from 'player_s *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(379,3): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(391,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(402,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(413,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(424,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(435,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(446,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(457,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(497,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(501,53): warning C4311: 'type cast': pointer truncation from 'sector_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(512,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(516,47): warning C4311: 'type cast': pointer truncation from 'sector_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(523,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(527,49): warning C4311: 'type cast': pointer truncation from 'sector_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(534,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(538,47): warning C4311: 'type cast': pointer truncation from 'sector_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(549,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(553,49): warning C4311: 'type cast': pointer truncation from 'sector_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(559,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(563,51): warning C4311: 'type cast': pointer truncation from 'sector_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(569,6): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_saveg.c(573,47): warning C4311: 'type cast': pointer truncation from 'sector_t *' to 'int'
+  p_setup.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_bbox.h(26,10): fatal  error C1083: Cannot open include file: 'values.h': No such file or directory
+  p_sight.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_sight.c(313,33): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\p_sight.c(314,33): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  p_spec.c
+  p_switch.c
+  p_telept.c
+  p_tick.c
+  p_user.c
+  r_bsp.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_bbox.h(26,10): fatal  error C1083: Cannot open include file: 'values.h': No such file or directory
+  r_data.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(322,26): warning C4013: 'alloca' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(322,49): warning C4312: 'type cast': conversion from 'int' to 'byte *' of greater size
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(451,62): warning C4047: '=': 'int *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(455,2): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(642,43): warning C4311: 'type cast': pointer truncation from 'lighttable_t *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(642,56): warning C4312: 'type cast': conversion from 'int' to 'byte *' of greater size
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(705,7): warning C4013: 'strncasecmp' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(762,35): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(784,41): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_data.c(819,39): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+  r_draw.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_draw.c(464,59): warning C4311: 'type cast': pointer truncation from 'byte *' to 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_draw.c(464,73): warning C4312: 'type cast': conversion from 'int' to 'byte *' of greater size
+  r_main.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_bbox.h(26,10): fatal  error C1083: Cannot open include file: 'values.h': No such file or directory
+  r_plane.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_plane.c(135,16): warning C4018: '>': signed/unsigned mismatch
+  r_segs.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_segs.c(624,20): error C4146: unary minus operator applied to unsigned type, result still unsigned
+  r_sky.c
+  r_things.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_things.c(194,23): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_things.c(507,33): warning C4018: '>=': signed/unsigned mismatch
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_things.c(660,39): warning C4018: '>=': signed/unsigned mismatch
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_things.c(796,25): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  sounds.c
+  st_lib.c
+  st_stuff.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(667,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1136,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1139,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1150,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1160,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1170,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1182,6): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1185,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1187,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1189,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1191,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\st_stuff.c(1193,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  s_sound.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\s_sound.c(674,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\r_things.c(828): error C4703: potentially uninitialized local pointer variable 'best' used
+  Compiling...
+  tables.c
+  v_video.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\m_bbox.h(26,10): fatal  error C1083: Cannot open include file: 'values.h': No such file or directory
+  wi_stuff.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1546,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1548,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1553,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1579,6): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1589,6): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1613,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1632,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1698,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\wi_stuff.c(1702,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  w_wad.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(71,23): warning C4013: 'toupper' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(76,17): error C2079: 'fileinfo' uses undefined struct 'stat'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(78,9): warning C4013: 'fstat' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(81,21): error C2224: left of '.st_size' must have struct/union type
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(81,5): warning C4033: 'filelength' must return a value
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(93,18): warning C4013: 'strlen' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(104,5): warning C4013: 'memset' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(163,20): warning C4013: 'open' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(163,44): error C2065: 'O_RDONLY': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(163,54): error C2065: 'O_BINARY': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(172,9): warning C4013: 'strcasecmp' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(184,2): warning C4013: 'read' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(185,6): warning C4013: 'strncmp' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(199,13): warning C4013: 'alloca' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(199,28): warning C4047: '=': 'filelump_t *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(200,2): warning C4013: 'lseek' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(207,16): warning C4013: 'realloc' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(207,63): warning C4047: '=': 'lumpinfo_t *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(216,25): warning C4018: '<': signed/unsigned mismatch
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(221,2): warning C4013: 'strncpy' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(225,2): warning C4013: 'close' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(249,46): error C2065: 'O_RDONLY': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(249,56): error C2065: 'O_BINARY': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(256,31): warning C4047: '=': 'filelump_t *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(264,4): warning C4018: '<': signed/unsigned mismatch
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(300,16): warning C4013: 'malloc' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(300,25): warning C4047: '=': 'lumpinfo_t *' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(310,30): warning C4047: '=': 'void **' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(384,20): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(450,43): error C2065: 'O_RDONLY': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(450,53): error C2065: 'O_BINARY': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(482,24): warning C4018: '>=': signed/unsigned mismatch
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(558,2): warning C4013: 'memcpy' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\w_wad.c(553,9): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  z_zone.c
+D:\Game Engines\Doom Content\DOOM-repo\linuxdoom-1.10\z_zone.c(440,55): warning C4311: 'type cast': pointer truncation from 'void **' to 'unsigned int'
+  DOOMNET.C
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(54,24): error C2143: syntax error: missing ')' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(54,24): error C2143: syntax error: missing '{' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(54,36): error C2059: syntax error: ')'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(59,16): error C2061: syntax error: identifier 'NetISR'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(59,16): error C2059: syntax error: ';'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(59,28): error C2059: syntax error: '<parameter-list>'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(19,17): error C2143: syntax error: missing ')' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(19,17): error C2143: syntax error: missing '{' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(19,29): error C2059: syntax error: ')'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(40,9): error C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(71,20): error C2143: syntax error: missing ';' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(71,27): error C2065: 'vector': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(71,20): error C2100: illegal indirection
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(81,40): error C2065: '_argv': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(81,44): error C2109: subscript requires array or pointer type
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(81,20): error C2198: 'sscanf': too few arguments for call
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(87,11): error C2065: 'vector': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(87,20): error C2146: syntax error: missing ')' before identifier 'far'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(87,13): error C2100: illegal indirection
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(87,31): error C2059: syntax error: ')'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(88,17): error C2065: 'vector': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(88,28): error C2065: 'vector': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(88,20): error C2100: illegal indirection
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(99,16): warning C4013: 'getvect' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(99,40): warning C4047: '=': 'int *(__cdecl *)(void)' differs in levels of indirection from 'int'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(99,2): error C2106: '=': left operand must be l-value
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(100,2): warning C4013: 'setvect' undefined; assuming extern returning int
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(100,32): error C2065: 'NetISR': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(106,21): error C2065: '_DS': undeclared identifier
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(106,45): warning C4311: 'type cast': pointer truncation from 'doomcom_t *' to 'unsigned int'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(81,20): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(107,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(112,7): error C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _access. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(113,3): error C4996: 'spawnv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _spawnv. See online help for details.
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\DOOMNET.C(115,3): error C4996: 'spawnv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _spawnv. See online help for details.
+  PORT.C
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(54,24): error C2143: syntax error: missing ')' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(54,24): error C2143: syntax error: missing '{' before '*'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(54,36): error C2059: syntax error: ')'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(59,16): error C2061: syntax error: identifier 'NetISR'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(59,16): error C2059: syntax error: ';'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\doomnet.h(59,28): error C2059: syntax error: '<parameter-list>'
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\sersetup.h(10,10): fatal  error C1083: Cannot open include file: 'bios.h': No such file or directory
+  SERSETUP.C
+D:\Game Engines\Doom Content\DOOM-repo\sersrc\sersetup.h(10,10): fatal  error C1083: Cannot open include file: 'bios.h': No such file or directory
+  linux.c
+D:\Game Engines\Doom Content\DOOM-repo\sndserv\linux.c(41,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  sounds.c
+  soundsrv.c
+D:\Game Engines\Doom Content\DOOM-repo\sndserv\soundsrv.c(47,10): fatal  error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory
+  wadread.c
+D:\Game Engines\Doom Content\DOOM-repo\sndserv\wadread.c(49,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  Generating Code...
