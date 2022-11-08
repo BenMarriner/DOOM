@@ -24,34 +24,62 @@
 static const char
 rcsid[] = "$Id: i_main.c,v 1.4 1997/02/03 22:45:10 b1 Exp $";
 
-#ifdef WIN32
-#include <Windows.h>
-#endif
-
 #include "doomdef.h"
 
 #include "m_argv.h"
 #include "d_main.h"
 
 #ifdef WIN32
-int WinMain
+#include <Windows.h>
+
+LRESULT WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+{
+    return DefWindowProc(hwnd, uMsg, wParam, lParam);
+}
+
+INT WINAPI wWinMain
 (
-    int         argc, 
-    char**      argv,
     HINSTANCE   hInst,
     HINSTANCE   hInstPrev,
     PSTR        cmdline, 
     int         cmdshow
 )
 {
-    myargc = argc;
-    myargv = argv;
+    myargc = 0;
+    myargv = CommandLineToArgW(GetCommandLine());
+
+    const wchar_t CLASS_NAME[] = L"Doom Window Class";
+    WNDCLASS dwc;
+
+    dwc.lpfnWndProc = WindowProc;
+    dwc.hInstance = hInst;
+    dwc.lpszClassName = CLASS_NAME;
+
+    RegisterClass(&dwc);
+
+    // Create new window
+    HWND hwnd = CreateWindowEx
+    (
+        0,
+        CLASS_NAME,
+        L"Doom",
+        WS_OVERLAPPEDWINDOW,
+        CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
+        NULL,
+        NULL,
+        hInst,
+        NULL
+    );
+    if (hwnd == NULL) return -1;
+    ShowWindow(hwnd, cmdshow);
 
     D_DoomMain();
 
     return 0;
 }
-#else
+#endif
+
+#ifdef LINUX
 int main 
 (
     int     argc, 
@@ -66,3 +94,5 @@ int main
     return 0;
 } 
 #endif
+
+

@@ -35,6 +35,10 @@ rcsid[] = "$Id: m_bbox.c,v 1.1 1997/02/03 22:45:10 b1 Exp $";
 #include <unistd.h>
 #endif
 
+#ifdef WIN32
+#include <time.h>
+#endif
+
 #include "doomdef.h"
 #include "m_misc.h"
 #include "i_video.h"
@@ -47,6 +51,7 @@ rcsid[] = "$Id: m_bbox.c,v 1.1 1997/02/03 22:45:10 b1 Exp $";
 #pragma implementation "i_system.h"
 #endif
 #include "i_system.h"
+
 
 
 
@@ -90,6 +95,7 @@ byte* I_ZoneBase (int*	size)
 //
 int  I_GetTime (void)
 {
+#ifdef LINUX
     struct timeval	tp;
     struct timezone	tzp;
     int			newtics;
@@ -100,6 +106,21 @@ int  I_GetTime (void)
 	basetime = tp.tv_sec;
     newtics = (tp.tv_sec-basetime)*TICRATE + tp.tv_usec*TICRATE/1000000;
     return newtics;
+#endif
+#ifdef WIN32
+    static clock_t initTime = 0;
+    clock_t currTime = clock();
+
+    if (initTime > 0)
+        initTime = currTime;
+
+    int deltaTime = currTime - initTime;
+    int deltaTimeMS = deltaTime * 1000000;
+
+    int newTics = deltaTime * TICRATE + deltaTimeMS * TICRATE / 1000000;
+
+    return newTics;
+#endif
 }
 
 

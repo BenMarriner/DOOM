@@ -25,6 +25,7 @@ static const char
 rcsid[] = "$Id: i_x.c,v 1.6 1997/02/03 22:45:10 b1 Exp $";
 
 #include <stdlib.h>
+#ifdef LINUX
 #include <unistd.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>
@@ -34,19 +35,22 @@ rcsid[] = "$Id: i_x.c,v 1.6 1997/02/03 22:45:10 b1 Exp $";
 #include <X11/keysym.h>
 
 #include <X11/extensions/XShm.h>
+
 // Had to dig up XShm.c for this one.
 // It is in the libXext, but not in the XFree86 headers.
-#ifdef LINUX
 int XShmGetEventBase( Display* dpy ); // problems with g++?
-#endif
 
-#include <stdarg.h>
 #include <sys/time.h>
-#include <sys/types.h>
 #include <sys/socket.h>
 
 #include <netinet/in.h>
+
 #include <errnos.h>
+#endif
+
+#include <stdarg.h>
+#include <sys/types.h>
+
 #include <signal.h>
 
 #include "doomstat.h"
@@ -59,6 +63,7 @@ int XShmGetEventBase( Display* dpy ); // problems with g++?
 
 #define POINTER_WARP_COUNTDOWN	1
 
+#ifdef LINUX
 Display*	X_display=0;
 Window		X_mainWindow;
 Colormap	X_cmap;
@@ -93,7 +98,6 @@ static int	multiply=1;
 //
 //  Translates the key currently in X_event
 //
-
 int xlatekey(void)
 {
 
@@ -160,10 +164,12 @@ int xlatekey(void)
     return rc;
 
 }
+#endif
 
 void I_ShutdownGraphics(void)
 {
-  // Detach from X server
+#ifdef LINUX
+	// Detach from X server
   if (!XShmDetach(X_display, &X_shminfo))
 	    I_Error("XShmDetach() failed in I_ShutdownGraphics()");
 
@@ -173,6 +179,10 @@ void I_ShutdownGraphics(void)
 
   // Paranoia.
   image->data = NULL;
+#endif // LINUX
+#ifdef WIN32
+
+#endif
 }
 
 
@@ -193,6 +203,7 @@ boolean		shmFinished;
 
 void I_GetEvent(void)
 {
+#ifdef LINUX
 
     event_t event;
 
@@ -275,9 +286,13 @@ void I_GetEvent(void)
 	if (doShm && X_event.type == X_shmeventtype) shmFinished = true;
 	break;
     }
+#endif
+#ifdef WIN32
 
+#endif
 }
 
+#ifdef LINUX
 Cursor
 createnullcursor
 ( Display*	display,
@@ -302,12 +317,15 @@ createnullcursor
     XFreeGC(display,gc);
     return cursor;
 }
+#endif // LINUX
 
 //
 // I_StartTic
 //
 void I_StartTic (void)
 {
+#ifdef LINUX
+
 
     if (!X_display)
 	return;
@@ -334,7 +352,10 @@ void I_StartTic (void)
     }
 
     mousemoved = false;
+#endif // LINUX
+#ifdef WIN32
 
+#endif
 }
 
 
@@ -351,7 +372,7 @@ void I_UpdateNoBlit (void)
 //
 void I_FinishUpdate (void)
 {
-
+#ifdef LINUX
     static int	lasttic;
     int		tics;
     int		i;
@@ -517,7 +538,10 @@ void I_FinishUpdate (void)
 	XSync(X_display, False);
 
     }
+#endif
+#ifdef WIN32
 
+#endif // WIN32
 }
 
 
@@ -529,7 +553,7 @@ void I_ReadScreen (byte* scr)
     memcpy (scr, screens[0], SCREENWIDTH*SCREENHEIGHT);
 }
 
-
+#ifdef LINUX
 //
 // Palette stuff.
 //
@@ -575,16 +599,19 @@ void UploadNewPalette(Colormap cmap, byte *palette)
 
 	}
 }
+#endif // LINUX
 
 //
 // I_SetPalette
 //
 void I_SetPalette (byte* palette)
 {
-    UploadNewPalette(X_cmap, palette);
+#ifdef LINUX
+	UploadNewPalette(X_cmap, palette);
+#endif
 }
 
-
+#ifdef LINUX
 //
 // This function is probably redundant,
 //  if XShmDetach works properly.
@@ -688,10 +715,11 @@ void grabsharedmemory(int size)
   fprintf(stderr, "shared memory id=%d, addr=0x%x\n", id,
 	  (int) (image->data));
 }
+#endif
 
 void I_InitGraphics(void)
 {
-
+#ifdef LINUX
     char*		displayname;
     char*		d;
     int			n;
@@ -911,10 +939,14 @@ void I_InitGraphics(void)
 	screens[0] = (unsigned char *) (image->data);
     else
 	screens[0] = (unsigned char *) malloc (SCREENWIDTH * SCREENHEIGHT);
+#endif
 
+#ifdef WIN32
+
+#endif
 }
 
-
+#ifdef LINUX
 unsigned	exptable[256];
 
 void InitExpand (void)
@@ -1046,5 +1078,6 @@ Expand4
 	xline += step;
     } while (y--);
 }
+#endif
 
 
